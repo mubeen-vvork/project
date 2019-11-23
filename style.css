@@ -1,0 +1,319 @@
+.body
+{
+  font-size: 50px;
+  margin-top: 50px;
+  text-align: center;
+ position: relative;
+ font-family: 'Courier New', Courier, monospace;
+}
+.nav
+{
+    background-color: white;
+border:1px solid gray;
+height:100px;
+width:1100px;
+margin-left: 100px;
+margin-top: 30px;
+border-left: none;
+border-right: none;
+position: sticky;
+top:10px;
+z-index:1;    
+}
+.ul
+{
+    margin-left: 70px;
+}
+.ul ul li
+{
+    color: black;
+font-weight: bolder;
+float: left;
+margin: 25px;
+list-style: none;
+font-size: 20px;
+}
+.ul li:hover
+{
+    cursor: pointer;
+    color: gray;
+
+}
+.img 
+{
+background-image: url("1.jpg");
+background-size: cover;
+margin-left: 85px;
+margin-top: 100px;
+width: 85%;
+height: 90vh;
+animation-name: img;
+animation-delay: 5s;
+/* animation-direction: 5s  ; */
+animation-iteration-count: infinite;
+/* animation-fill-mode: forwards; */
+animation-duration: 20s;
+}
+@keyframes img{
+    50%{background-image: url("2.jpg");
+        background-size: cover;}
+            100%{background-image: url("5.jpg");
+                background-size: cover;}
+                
+}
+.div
+{
+    border: 1px solid white;
+    height: 450px;
+    width: 350px;
+    margin-left: 100px;
+}
+.icon img
+{
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.text
+{
+    font-size: 16px;
+    text-align: center;
+}
+.text span
+{
+    color:gray;
+}
+.box2
+{
+    border: 1px solid white;
+    height: 450px;
+    width: 350px;
+   margin-top: -413px;
+   margin-left: 400px;
+}
+.img2 img
+{
+        height: 100px;
+        margin-top: 80px;
+        margin-left: 130px; 
+        cursor: pointer; 
+        
+}
+.text3
+{
+    text-align: center;
+}
+.text3 span
+{
+    color: gray;
+}
+
+.box3
+{
+    border: 1px solid white;
+    height: 450px;
+    width: 350px;
+   margin-top: -453px;
+   margin-left: 780px;
+}
+.img3 img
+{
+   height: 100px;
+   margin-top: 90px;
+   margin-left: 130px;
+   cursor: pointer;
+}
+.text4
+{
+    text-align: center;
+    margin-top: -10px;
+}
+.text4 span
+{
+    color: gray;
+}
+.some
+{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.some span
+{
+    color: goldenrod;
+}
+.img5  
+{
+    background-image: url(aa.jpg);
+    height: 250px;
+    width:350px;
+    margin-left: 70px;
+    margin-top: 100px;
+    animation-name: img5;
+animation-delay: 5s;
+/* animation-direction: 5s  ; */
+animation-iteration-count: infinite;
+/* animation-fill-mode: forwards; */
+animation-duration: 20s;
+}
+@keyframes img5{
+    50%{background-image: url("a1.jpg");
+        background-size: cover;}
+            100%{background-image: url("a2.jpg");
+                background-size: cover;}
+    
+}
+
+.text6
+{
+    margin-left:80px ;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.text6 span
+{
+    color: gray;
+}
+.text6 span:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.img6
+{
+    background-size:100% 100% ;
+    background-image: url(a3.jpg);
+    height: 250px;
+    width: 300px;
+    margin-left: 510px;
+    margin-top: -380px;
+    animation-name: img6;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+   animation-duration: 20s;
+}
+@keyframes img6
+{
+   50% {background-image:url(aa.jpg) ;
+        background-size: cover; }
+}
+.text7
+{
+    margin-left:510px ;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.text7 span
+{
+    color: gray;
+    cursor: pointer;
+}
+.img7 
+{
+    background-size: 100% 100%;
+    background-image: url(a1.jpg);
+    height: 250px;
+    width: 300px;
+    margin-left: 900px;
+    margin-top: -370px;
+    animation-name: img7;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes img7
+{
+    50%{background-image: url(a3.jpg);
+    background-size: cover;}
+}
+.text8
+{
+   margin-top: 40px;
+   margin-left: 910px;
+   font-size: 20px;
+}
+.text8 span
+{
+    color: gray;
+    cursor: pointer;
+}
+.what
+{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.what span
+{
+    color:goldenrod ;
+}
+.incl
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size:23px;
+    color: gray;
+}
+.img8  img
+{
+    position: relative;
+    background-size: 100% 100%;
+    height: 130px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.img9 img
+{
+  position: absolute;
+  background-size: 100% 100%;
+  height: 150px;
+  width:190px;
+  margin-top: -160px;
+  margin-left: 350px;
+}
+.img10 img
+{
+  position: absolute;
+  background-size: 100% 100%;
+  height: 150px;
+  width:190px;
+  margin-top: -140px;
+  margin-left: 600px;
+}
+.img11 img
+{
+  position: absolute;
+  background-size: 100% 100%;
+  height: 150px;
+  width:190px;
+  margin-top: -160px;
+  margin-left: 930px;
+}
+.foter
+{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.foter span:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+.icon10
+{
+   margin-left: 1000px;
+   margin-top: -40px;
+   
+}
+.icon10 i
+{
+    margin: 15px;
+    cursor: pointer;
+}
